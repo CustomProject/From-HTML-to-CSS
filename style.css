@@ -1,0 +1,57 @@
+h1{
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ulclass{
+    color: aqua;
+    font-size: x-large;
+}
+#cssid{
+    color: red;
+    font-size: x-large;
+}
+
+#firstpara{
+    color: chocolate;
+    font-style: italic;
+    font-size: large;
+}
+
+h2{
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: coral;
+}
+
+body{
+    background-color: #FCE7C8;
+}
+#secondpara{
+    color: chartreuse;
+    font-weight: bold;
+    
+}
+
+.button-1{
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+    padding: 10px 10px 3px 10px;
+    background-color: #F0A04B;
+    border: 5px #FADA7A solid;
+    text-align:center;
+
+    position: relative;
+    top: 50px;
+    left: 620px;
+}
+
+#button-1 > div > .button-1{
+    display: inline-block;
+    height: 25px;
+    width: 10%;
+}
